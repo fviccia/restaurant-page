@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 #center {
   height: 450px;
@@ -32,17 +33,30 @@ body {
   margin-bottom: 10px;
 }
 #description {
-  height: 200px;
-  width: 600px;
+  height: 400px;
+  width: 650px;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
   font-weight: bolder;
   text-align: justify;
   text-justify: inter-word;
 }
-#buttons {
-  height: 60px;
-  width: 700px;
-  background-color: red;
-  margin-bottom: 15px;
+.tab-bar {
+  width: 600px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 60px;
+}
+.tabsy {
+  width: 600px;
+  justify-content: space-evenly;
+}
+.tabButton {
+  border-radius: 15px;
+  line-height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .tabButton {
+    width: 100px;
+  }
 }
