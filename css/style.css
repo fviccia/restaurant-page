@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Montserrat:ital,wght@0,100;1,500;1,900&family=Roboto+Mono&display=swap");
+
+body {
+  background-image: url(/img/background.jpg);
+  background-size: cover;
+}
+#content {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#center {
+  height: 450px;
+  width: 700px;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#headline {
+  height: 150px;
+  width: 700px;
+  font-family: "Coda Caption", sans-serif;
+  font-size: 65px;
+  text-align: center;
+  line-height: 150px;
+  margin-bottom: 10px;
+}
+#description {
+  height: 200px;
+  width: 600px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: justify;
+  text-justify: inter-word;
+}
+#buttons {
+  height: 60px;
+  width: 700px;
+  background-color: red;
+  margin-bottom: 15px;
+}
