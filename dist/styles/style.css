@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Montserrat:ital,wght@0,100;1,500;1,900&family=Roboto+Mono&display=swap");
 
 body {
-  background-image: url(/img/background.jpg);
+  background-image: url(/dist/img/background.jpg);
   background-size: cover;
 }
 #content {
