@@ -5,8 +5,6 @@ body {
   background-size: cover;
 }
 #content {
-  min-width: 100vw;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,15 +39,10 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
-.tab-bar {
-  width: 600px;
-  margin-bottom: 20px;
-  position: relative;
-  bottom: 60px;
-}
 .tabsy {
   width: 600px;
   justify-content: space-evenly;
+  margin: 30px auto;
 }
 .tabButton {
   border-radius: 15px;
@@ -59,4 +52,12 @@ body {
   .tabButton {
     width: 100px;
   }
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
 }
